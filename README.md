@@ -17,4 +17,4 @@
     Clonar projeto: git clone https://github.com/PedroHenrique-git/GeradorDeCpf.git
 </p>
 
-<img src="exemplo.png"/>
+<img src="imagem.png"/>
