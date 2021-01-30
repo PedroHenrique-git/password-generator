@@ -10,7 +10,7 @@ install dependencies: <b>npm run install</b>
 
 modify files: <b>npm run dev</b>
 
-open files with a server
+open the files with a server, the vscode live server extension is very good
 
 ## Build with
 
