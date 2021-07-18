@@ -4,6 +4,10 @@
   Password generator made using html, css, pure JavaScript and webpack<br>
 </p>
 
+<p align="left">
+  you can see the app online here: https://pedrohenrique-git.github.io/password-generator/
+</p>
+
 ## Getting Started
 
 install dependencies: <b>npm install</b> 
@@ -22,10 +26,6 @@ open the files with a server, the vscode live server extension is very good
        <li><a href="https://webpack.js.org/">WebPack</a></li>
     </ul>
 </p>
-
-## Images
-
-<img src="imagem.png"/>
 
 ## License
 
