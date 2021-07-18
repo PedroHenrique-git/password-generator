@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="./public/assets/images/favicon.png" type="image/x-icon">
+  <title>Password generator</title>
+</head>
+
+<body>
+
+  <main class="container">
+    <section class="principal">
+      <h1>Password generator</h1>
+
+      <div class="resultado">
+        <input type="text" name="res" id="res">
+      </div>
+
+      <div class="opcoes">
+        <div class="input-block">
+          <label for="qtd">number of characters: </label>
+          <input value="8" type="number" name="qtd" id="qtd" required>
+        </div>
+
+        <div class="input-block">
+          <label for="addNumber">add numbers: </label>
+          <input type="checkbox" name="addNumber" id="addNumber">
+        </div>
+
+        <div class="input-block">
+          <label for="addMaiusculas">add capital letters: </label>
+          <input type="checkbox" name="addMaiusculas" id="addMaiusculas">
+        </div>
+
+        <div class="input-block">
+          <label for="addMinusculas">add lowercase letters: </label>
+          <input type="checkbox" name="addMinusculas" id="addMinusculas">
+        </div>
+
+        <div class="input-block">
+          <label for="addSimbolos">symbols: </label>
+          <input type="checkbox" name="addSimbolos" id="addSimbolos">
+        </div>
+
+        <div class="input-block">
+          <button>generate password</button>
+        </div>
+        
+      </div>
+    </section>  
+  </main>
+
+  <script src="./public/assets/js/bundle.js"></script>
+</body>
+
+</html>
